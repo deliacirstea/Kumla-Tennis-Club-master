@@ -1,0 +1,126 @@
+:root{
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    line-height: 2.2;
+    background-color: var(--timberwolf);
+    font-family: 'Satisfy', cursive;
+    color: var(--xanadu);
+    
+}
+p {font-size: larger;
+    margin: 0;
+   
+}
+ footer{
+    text-align: center;
+ }
+h1  {
+     /* margin-bottom: 0; */
+    background-color: var(--dark-sea-green);
+    text-align: center;
+   
+}
+
+h2 {margin-bottom: 0;
+    background-color: var(--dark-sea-green);
+    text-align: center;
+    /* font-size: larger; */
+}
+/* Container one */
+.container-one{
+   
+    background-color: var(--yellow-green-crayola);
+   margin: 50px auto;
+   width: 50%;
+   padding: 8px;
+}
+
+.pone-img {
+    max-width: 100%;
+    float: left;
+   
+    padding: 0 10px 0 0 ;
+}
+.text {
+    margin-top: 10px;
+    text-align: justify;
+}
+/* Container two */
+.container-two{
+    background-color: var(--granny-smith-apple);
+    margin: 50px auto;
+   width: 50%;
+   padding: 8px;
+}
+.ptwo-img {
+    max-width: 100%;
+    float: left;
+   
+    padding: 0 10px 0 0 ;
+}
+
+/* Container three */
+.container-three {
+    background-color: var(--aero-blue);
+    margin: 50px auto;
+   width: 50%;
+   padding: 8px;
+}
+
+.pthree-img{
+    max-width: 100%;
+    float: left;
+   
+    padding: 0 10px 0 0 ;
+}
+
+/* Container four */
+.container-four
+{background-color: var(--laurel-green);
+    margin: 50px auto;
+   width: 50%;
+   padding: 8px;
+
+}
+.pfour-img{
+    max-width: 100%;
+    float: left;
+   
+    padding: 0 10px 0 0 ;
+}
+
+#btn{
+    
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color:var(--xanadu);
+  color: var(--alabaster); 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#homebtn{
+    
+    position: fixed; 
+    bottom: 0px; 
+    left: 30px; 
+    z-index: 99;  
+    outline: none; 
+    color: var(--xanadu); 
+    cursor: pointer;
+    padding: 16px; 
+    
+  }

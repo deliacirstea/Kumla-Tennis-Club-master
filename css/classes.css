@@ -1,0 +1,74 @@
+:root{
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+html{
+    font-family: 'Halant', serif;
+    line-height: 2;
+    background-color: var(--timberwolf);
+    color: var(--xanadu);
+}
+/* Images */
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.howTo {
+    width: 350px;   
+}
+
+.court-img{
+    width: 700px;  
+}
+footer{
+    text-align: center;
+ }
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    width: 50%;
+    padding: 8px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4{
+    text-align: center;
+    text-shadow: rgb(162, 162, 129) 1px 0 10px;
+}
+/* home button */
+#btn{
+    position: fixed; 
+    bottom: 8px; 
+    right: 30px; 
+    z-index: 99; 
+    outline: none; 
+    color: white; 
+    cursor: pointer; 
+    padding: 16px;    
+  }
+  
+/* Go to the top*/ 
+   #top-btn {
+        position: fixed; 
+        bottom: 30px; 
+        left: 30px; 
+        z-index: 99; 
+        border: none; 
+        outline: none; 
+        background-color: var(--xanadu);
+        color: white; 
+        cursor: pointer; 
+        padding: 13px; 
+        border-radius: 10px;
+        font-size: 15px; 
+  }
